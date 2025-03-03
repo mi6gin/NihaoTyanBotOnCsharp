@@ -1,2 +1,57 @@
-*.agdai
-MAlonzo/**
+# Ignore JetBrains Rider specific files
+.idea/
+*.sln.iml
+
+# Rider logs and run files
+**/logs/
+**/run/
+
+# Build and compiled files
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE settings and cache
+.vscode/
+.vs/
+*.dotSettings*
+
+# NuGet dependencies and lock files
+packages/
+project.lock.json
+
+# Build artifacts
+*.dll
+*.exe
+*.so
+*.dylib
+*.pdb
+*.a
+*.lib
+*.nupkg
+
+# Code coverage and reports
+*.coverlet*
+coverage.opencover.xml
+
+# Temporary files
+*.tmp
+*.log
+
+# Environment variables and secrets
+.env
+secrets.json
+
+# Generated and auto-generated files
+Generated/
+*.Generated.cs
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
