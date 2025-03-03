@@ -1,0 +1,9 @@
+﻿services:
+  bot:
+    build: .
+    image: nihao-tyan
+    tty: true
+    # env_file: .env
+    container_name: nihao-tyan
+    restart: on-failure  # Перезапуск только при ошибке
+
